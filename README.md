@@ -35,7 +35,12 @@
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
@@ -57,7 +62,13 @@ hello source command world</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
@@ -80,7 +91,12 @@ hello source command world</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
@@ -98,7 +114,12 @@ hello source command world</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
@@ -160,7 +181,12 @@ hello source command world</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
@@ -188,7 +214,8 @@ hello source command world</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git --version</code></pre>
 
 
 
@@ -215,7 +242,8 @@ hello source command world</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install gitecho 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
+echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
 
 
 
@@ -228,7 +256,13 @@ hello source command world</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
@@ -325,7 +359,12 @@ hello source command world</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
@@ -343,7 +382,12 @@ hello source command world</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscriptcd source_shellscriptchmod 744 start_source_shellscript.shcat import.shcat start_source_shellscript.sh./start_source_shellscript.sh</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/source_shellscript
+cd source_shellscript
+chmod 744 start_source_shellscript.sh
+cat import.sh
+cat start_source_shellscript.sh
+./start_source_shellscript.sh</code></pre>
 
 
 
