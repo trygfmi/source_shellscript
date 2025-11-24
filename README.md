@@ -4,7 +4,7 @@
 
 
 <div class="wp-block-group">
-<p>このリポジトリは、shellscript内でsourceコマンドを実行して変数を読み込みcatコマンドを実行します</p>
+<p>このリポジトリは、シェルスクリプト内でsourceコマンドを実行して変数を読み込みcatコマンドを実行します</p>
 </div>
 
 
@@ -150,11 +150,11 @@ hello source command world</code></pre>
 
 <div class="wp-block-group">
 <p>以下のコマンドを端末に打ち込んでcommand not foundが出なければokです</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+</div>
 
 
 
@@ -164,11 +164,11 @@ hello source command world</code></pre>
 
 <div class="wp-block-group">
 <p>端末にcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+</div>
 
 
 
@@ -238,12 +238,12 @@ git --version</code></pre>
 
 <div class="wp-block-group">
 <p>ターミナルでcommand not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
 echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+</div>
 
 
 
@@ -337,11 +337,11 @@ hello source command world</code></pre>
 
 
 <h5 class="wp-block-heading">MSYS2 MINGW64</h5>
-</div>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>pacman --sync git</code></pre>
+</div>
 
 
 
@@ -410,7 +410,3 @@ hello source command world</code></pre>
 <div class="wp-block-group">
 <p>start_source_shellscript.shファイル内でsourceコマンドを実行して、fileとtext変数を読み込んで表示しています<br>file変数には文字列のファイル名test.txtが代入されているので、catコマンドの引数に指定してファイルの内容を表示させてみました</p>
 </div>
-
-
-
-<p></p>
